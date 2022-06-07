@@ -1,0 +1,157 @@
+body {
+	background-color: #F0F0F0;
+	}
+
+.sidenav-trigger {
+	display: block !important;
+	opacity: 1 !important;
+	position: static !important;
+}
+
+.post-user {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.post-user ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+	.user-details li {
+          display: block !important;
+        }
+
+    .post-user .header ul li ul li:nth-child(2) {
+          font-size: 12px !important;
+          color: #a5a5a5;
+        }
+
+	.post-user ul li .icon {
+	 	  width: 35px;
+          margin-right: 7px;
+          border-radius: 30px;
+          transform: translateY(2px);
+		}
+
+.post-user .gambar {
+	width: 50%;
+}
+
+
+
+/*Kirim Komen*/
+.kirim-komen {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+
+.semua-komen .isi-komen {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.semua-komen .isi-komen ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.semua-komen .isi-komen  ul li .icon {
+		  width: 35px !important;
+		  height: 35px !important;
+          margin-right: 7px;
+          border-radius: 30px;
+          transform: translateY(2px);
+}
+
+.semua-komen .isi-komen .gambar {
+	width: 50% !important;
+}
+
+	.user-details li {
+          display: block !important;
+        }
+
+    .isi-komen .header ul li ul li:nth-child(2) {
+          font-size: 12px !important;
+          color: #a5a5a5;
+        }
+
+
+/*Responsive Design*/
+@media (max-width: 768px) {
+
+	.brand-logo {
+		font-size: 100% !important;
+	}
+
+		  .post-user {
+	          background-color: #fff;
+	          border-radius: 10px;
+	          padding: 0px;
+	          margin-top: 10px;
+	          height: auto !important;
+
+	        }
+
+	      .post-user {
+            padding: 0px !important;
+          }
+
+          .post-user .header {
+            padding: 1px 10px !important;
+          }
+
+          .post-user .isi .gambar {
+            width: 100%;
+          }
+
+          .post-user ul li{
+            font-size: 10px;
+          }
+
+          .post-user ul li img {
+            width: 30px;
+            margin-right: 5px;
+            border-radius: 30px;
+          }
+
+
+
+		.isi-komen {
+	          background-color: #fff;
+	          border-radius: 10px;
+	          padding: 0px !important;
+	          margin-top: 10px;
+	          height: auto !important;
+
+	        }
+
+	    .isi-komen .header {
+            padding: 1px 10px !important;
+          }
+
+		.isi-komen .isi .gambar {
+            width: 100% !important;
+          }
+
+          .isi-komen ul li{
+            font-size: 10px;
+          }
+
+          .isi-komen ul li img {
+            width: 30px !important;
+            height: 30px !important;
+            margin-right: 5px;
+            border-radius: 30px;
+          }
+}
